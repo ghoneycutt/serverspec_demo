@@ -30,3 +30,5 @@ doc/
 
 # OS X
 .DS_Store
+
+roles.yaml

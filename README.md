@@ -2,6 +2,7 @@
 
 # Steps
 
+1. Move `example_roles.yaml` to `roles.yaml`
 1. Replace IP with IP or hostname in `roles.yaml`
 1. `bundle install`
 1. `bundle exec rake acceptance`
