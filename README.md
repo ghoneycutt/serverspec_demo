@@ -1,5 +1,11 @@
 # Serverspec demo
 
+# Steps
+
+1. Replace IP with IP or hostname in `roles.yaml`
+1. `bundle install`
+1. `bundle exec rake acceptance`
+
 ## spec/spec_helper.rb for windows
 
 ```
