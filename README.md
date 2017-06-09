@@ -2,10 +2,23 @@
 
 # Steps
 
+## To connect to a remote host
+
 1. Move `example_roles.yaml` to `roles.yaml`
 1. Replace IP with IP or hostname in `roles.yaml`
 1. `bundle install`
 1. `bundle exec rake acceptance`
+
+## To use Vagrant
+
+1. `bundle install`
+1. `cd vagrant`
+1. `bundle exec rake`
+
+This will use the 'centos/7' box. If you already have a box and do not
+want to download another, you may use an existing box by replacing
+'centos/7' in the `Vagrantfile` with a box name of your choice. To see
+what boxes you have available type `vagrant box list`.
 
 ## spec/spec_helper.rb for windows
 
