@@ -9,6 +9,9 @@
 
 ## spec/spec_helper.rb for windows
 
+If connecting to a Windows system, replace the contents of
+`spec/spec_helper.rb` with the text below.
+
 ```
 require 'serverspec'
 require 'winrm'
